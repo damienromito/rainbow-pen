@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FC0BC2119F278C000681E0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BC2019F278C000681E0F /* main.m */; };
+		1FC0BC2419F278C000681E0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BC2319F278C000681E0F /* AppDelegate.m */; };
+		1FC0BC2C19F278C000681E0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0BC2B19F278C000681E0F /* Images.xcassets */; };
+		1FC0BC5419F2795200681E0F /* RFduino.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BC4B19F2795200681E0F /* RFduino.m */; };
+		1FC0BC5519F2795200681E0F /* RfduinoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BC4E19F2795200681E0F /* RfduinoManager.m */; };
+		1FC0BC5819F27F0E00681E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC0BC5719F27F0E00681E0F /* Foundation.framework */; };
+		1FC0BC5A19F27F1600681E0F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC0BC5919F27F1600681E0F /* CoreBluetooth.framework */; };
+		1FC0BC5C19F27F2200681E0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC0BC5B19F27F2200681E0F /* UIKit.framework */; };
+		1FC0BC5E19F27F5300681E0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC0BC5D19F27F5300681E0F /* QuartzCore.framework */; };
+		1FC0BC6C19F2933D00681E0F /* RainbowPenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BC6919F2933D00681E0F /* RainbowPenView.m */; };
+		1FC0BC6D19F2933D00681E0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BC6B19F2933D00681E0F /* ViewController.m */; };
+		1FC0BC6E19F2949D00681E0F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0BC1F19F278C000681E0F /* Info.plist */; };
+		1FC0BC7619F2AEEF00681E0F /* UIImage-Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BC7519F2AEEF00681E0F /* UIImage-Extensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1FC0BC7919F2AF5300681E0F /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BC7819F2AF5300681E0F /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
+		1FC0BC8319F2BFBF00681E0F /* ColoringGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BC8219F2BFBF00681E0F /* ColoringGameView.m */; };
+		1FC0BC8619F2C39F00681E0F /* OBShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BC8519F2C39F00681E0F /* OBShapedButton.m */; };
+		1FC0BC8919F2C3B600681E0F /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BC8819F2C3B600681E0F /* UIImage+ColorAtPixel.m */; };
+		1FC0BC9219F2CB3000681E0F /* Colorings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FC0BC9119F2CB3000681E0F /* Colorings.plist */; };
+		1FC0BC9B19F2E6EA00681E0F /* RPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BC9A19F2E6EA00681E0F /* RPHelper.m */; };
+		1FC0BCAE19F398CC00681E0F /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BCAB19F398CC00681E0F /* ACEDrawingTools.m */; };
+		1FC0BCAF19F398CC00681E0F /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BCAD19F398CC00681E0F /* ACEDrawingView.m */; };
+		1FC0BCB219F3B3E800681E0F /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BCB119F3B3E800681E0F /* GameView.m */; };
+		1FC0BCB519F3B99600681E0F /* UIImage+overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BCB419F3B99600681E0F /* UIImage+overlay.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FC0BC1B19F278C000681E0F /* RainbowPen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowPen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC0BC1F19F278C000681E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC0BC2019F278C000681E0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FC0BC2219F278C000681E0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FC0BC2319F278C000681E0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FC0BC2B19F278C000681E0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FC0BC4A19F2795200681E0F /* RFduino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFduino.h; sourceTree = "<group>"; };
+		1FC0BC4B19F2795200681E0F /* RFduino.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFduino.m; sourceTree = "<group>"; };
+		1FC0BC4C19F2795200681E0F /* RFduinoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFduinoDelegate.h; sourceTree = "<group>"; };
+		1FC0BC4D19F2795200681E0F /* RfduinoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfduinoManager.h; sourceTree = "<group>"; };
+		1FC0BC4E19F2795200681E0F /* RfduinoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RfduinoManager.m; sourceTree = "<group>"; };
+		1FC0BC4F19F2795200681E0F /* RFduinoManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFduinoManagerDelegate.h; sourceTree = "<group>"; };
+		1FC0BC5719F27F0E00681E0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FC0BC5919F27F1600681E0F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		1FC0BC5B19F27F2200681E0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FC0BC5D19F27F5300681E0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1FC0BC6519F2923000681E0F /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		1FC0BC6619F2925100681E0F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1FC0BC6819F2933D00681E0F /* RainbowPenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainbowPenView.h; sourceTree = "<group>"; };
+		1FC0BC6919F2933D00681E0F /* RainbowPenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainbowPenView.m; sourceTree = "<group>"; };
+		1FC0BC6A19F2933D00681E0F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FC0BC6B19F2933D00681E0F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FC0BC7419F2AEEF00681E0F /* UIImage-Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Extensions.h"; sourceTree = "<group>"; };
+		1FC0BC7519F2AEEF00681E0F /* UIImage-Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Extensions.m"; sourceTree = "<group>"; };
+		1FC0BC7719F2AF5300681E0F /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ALAssetsLibrary+CustomPhotoAlbum.h"; path = "../ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		1FC0BC7819F2AF5300681E0F /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ALAssetsLibrary+CustomPhotoAlbum.m"; path = "../ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
+		1FC0BC8119F2BFBF00681E0F /* ColoringGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoringGameView.h; sourceTree = "<group>"; };
+		1FC0BC8219F2BFBF00681E0F /* ColoringGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoringGameView.m; sourceTree = "<group>"; };
+		1FC0BC8419F2C39F00681E0F /* OBShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBShapedButton.h; sourceTree = "<group>"; };
+		1FC0BC8519F2C39F00681E0F /* OBShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBShapedButton.m; sourceTree = "<group>"; };
+		1FC0BC8719F2C3B600681E0F /* UIImage+ColorAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorAtPixel.h"; sourceTree = "<group>"; };
+		1FC0BC8819F2C3B600681E0F /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
+		1FC0BC9119F2CB3000681E0F /* Colorings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Colorings.plist; sourceTree = "<group>"; };
+		1FC0BC9919F2E6EA00681E0F /* RPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPHelper.h; sourceTree = "<group>"; };
+		1FC0BC9A19F2E6EA00681E0F /* RPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPHelper.m; sourceTree = "<group>"; };
+		1FC0BCAA19F398CC00681E0F /* ACEDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingTools.h; sourceTree = "<group>"; };
+		1FC0BCAB19F398CC00681E0F /* ACEDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEDrawingTools.m; sourceTree = "<group>"; };
+		1FC0BCAC19F398CC00681E0F /* ACEDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingView.h; sourceTree = "<group>"; };
+		1FC0BCAD19F398CC00681E0F /* ACEDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEDrawingView.m; sourceTree = "<group>"; };
+		1FC0BCB019F3B3E800681E0F /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		1FC0BCB119F3B3E800681E0F /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		1FC0BCB319F3B99600681E0F /* UIImage+overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+overlay.h"; sourceTree = "<group>"; };
+		1FC0BCB419F3B99600681E0F /* UIImage+overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+overlay.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FC0BC1819F278C000681E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC0BC5E19F27F5300681E0F /* QuartzCore.framework in Frameworks */,
+				1FC0BC5C19F27F2200681E0F /* UIKit.framework in Frameworks */,
+				1FC0BC5A19F27F1600681E0F /* CoreBluetooth.framework in Frameworks */,
+				1FC0BC5819F27F0E00681E0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FC0BC1219F278C000681E0F = {
+			isa = PBXGroup;
+			children = (
+				1FC0BC5D19F27F5300681E0F /* QuartzCore.framework */,
+				1FC0BC5B19F27F2200681E0F /* UIKit.framework */,
+				1FC0BC5919F27F1600681E0F /* CoreBluetooth.framework */,
+				1FC0BC5719F27F0E00681E0F /* Foundation.framework */,
+				1FC0BC1D19F278C000681E0F /* RainbowPen */,
+				1FC0BC1C19F278C000681E0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FC0BC1C19F278C000681E0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0BC1B19F278C000681E0F /* RainbowPen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FC0BC1D19F278C000681E0F /* RainbowPen */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0BC7A19F2BF5800681E0F /* Ressources */,
+				1FC0BC7319F2AEEF00681E0F /* Categories */,
+				1FC0BC6719F2931700681E0F /* Views */,
+				1FC0BC2219F278C000681E0F /* AppDelegate.h */,
+				1FC0BC2319F278C000681E0F /* AppDelegate.m */,
+				1FC0BC6519F2923000681E0F /* Config.h */,
+				1FC0BC2B19F278C000681E0F /* Images.xcassets */,
+				1FC0BC4419F2795200681E0F /* Libs */,
+				1FC0BC1E19F278C000681E0F /* Supporting Files */,
+			);
+			path = RainbowPen;
+			sourceTree = "<group>";
+		};
+		1FC0BC1E19F278C000681E0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0BC1F19F278C000681E0F /* Info.plist */,
+				1FC0BC2019F278C000681E0F /* main.m */,
+				1FC0BC6619F2925100681E0F /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FC0BC4419F2795200681E0F /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0BCA919F398CC00681E0F /* ACEDrawingView */,
+				1FC0BC4519F2795200681E0F /* rfduino */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		1FC0BC4519F2795200681E0F /* rfduino */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0BC4A19F2795200681E0F /* RFduino.h */,
+				1FC0BC4B19F2795200681E0F /* RFduino.m */,
+				1FC0BC4C19F2795200681E0F /* RFduinoDelegate.h */,
+				1FC0BC4D19F2795200681E0F /* RfduinoManager.h */,
+				1FC0BC4E19F2795200681E0F /* RfduinoManager.m */,
+				1FC0BC4F19F2795200681E0F /* RFduinoManagerDelegate.h */,
+			);
+			path = rfduino;
+			sourceTree = "<group>";
+		};
+		1FC0BC6719F2931700681E0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0BC8419F2C39F00681E0F /* OBShapedButton.h */,
+				1FC0BC8519F2C39F00681E0F /* OBShapedButton.m */,
+				1FC0BC6819F2933D00681E0F /* RainbowPenView.h */,
+				1FC0BC6919F2933D00681E0F /* RainbowPenView.m */,
+				1FC0BC6A19F2933D00681E0F /* ViewController.h */,
+				1FC0BC6B19F2933D00681E0F /* ViewController.m */,
+				1FC0BC8119F2BFBF00681E0F /* ColoringGameView.h */,
+				1FC0BC8219F2BFBF00681E0F /* ColoringGameView.m */,
+				1FC0BC9919F2E6EA00681E0F /* RPHelper.h */,
+				1FC0BC9A19F2E6EA00681E0F /* RPHelper.m */,
+				1FC0BCB019F3B3E800681E0F /* GameView.h */,
+				1FC0BCB119F3B3E800681E0F /* GameView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FC0BC7319F2AEEF00681E0F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0BC8719F2C3B600681E0F /* UIImage+ColorAtPixel.h */,
+				1FC0BC8819F2C3B600681E0F /* UIImage+ColorAtPixel.m */,
+				1FC0BC7719F2AF5300681E0F /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				1FC0BC7819F2AF5300681E0F /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+				1FC0BC7419F2AEEF00681E0F /* UIImage-Extensions.h */,
+				1FC0BC7519F2AEEF00681E0F /* UIImage-Extensions.m */,
+				1FC0BCB319F3B99600681E0F /* UIImage+overlay.h */,
+				1FC0BCB419F3B99600681E0F /* UIImage+overlay.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1FC0BC7A19F2BF5800681E0F /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0BC9119F2CB3000681E0F /* Colorings.plist */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		1FC0BCA919F398CC00681E0F /* ACEDrawingView */ = {
+			isa = PBXGroup;
+			children = (
+				1FC0BCAA19F398CC00681E0F /* ACEDrawingTools.h */,
+				1FC0BCAB19F398CC00681E0F /* ACEDrawingTools.m */,
+				1FC0BCAC19F398CC00681E0F /* ACEDrawingView.h */,
+				1FC0BCAD19F398CC00681E0F /* ACEDrawingView.m */,
+			);
+			path = ACEDrawingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FC0BC1A19F278C000681E0F /* RainbowPen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC0BC3E19F278C000681E0F /* Build configuration list for PBXNativeTarget "RainbowPen" */;
+			buildPhases = (
+				1FC0BC1719F278C000681E0F /* Sources */,
+				1FC0BC1819F278C000681E0F /* Frameworks */,
+				1FC0BC1919F278C000681E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainbowPen;
+			productName = RainbowPen;
+			productReference = 1FC0BC1B19F278C000681E0F /* RainbowPen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FC0BC1319F278C000681E0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = RainbowPen;
+				TargetAttributes = {
+					1FC0BC1A19F278C000681E0F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 1FC0BC1619F278C000681E0F /* Build configuration list for PBXProject "RainbowPen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FC0BC1219F278C000681E0F;
+			productRefGroup = 1FC0BC1C19F278C000681E0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FC0BC1A19F278C000681E0F /* RainbowPen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FC0BC1919F278C000681E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC0BC6E19F2949D00681E0F /* Info.plist in Resources */,
+				1FC0BC2C19F278C000681E0F /* Images.xcassets in Resources */,
+				1FC0BC9219F2CB3000681E0F /* Colorings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FC0BC1719F278C000681E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC0BC6D19F2933D00681E0F /* ViewController.m in Sources */,
+				1FC0BC9B19F2E6EA00681E0F /* RPHelper.m in Sources */,
+				1FC0BC5519F2795200681E0F /* RfduinoManager.m in Sources */,
+				1FC0BC6C19F2933D00681E0F /* RainbowPenView.m in Sources */,
+				1FC0BC2419F278C000681E0F /* AppDelegate.m in Sources */,
+				1FC0BCAE19F398CC00681E0F /* ACEDrawingTools.m in Sources */,
+				1FC0BCB219F3B3E800681E0F /* GameView.m in Sources */,
+				1FC0BC8619F2C39F00681E0F /* OBShapedButton.m in Sources */,
+				1FC0BCAF19F398CC00681E0F /* ACEDrawingView.m in Sources */,
+				1FC0BC8319F2BFBF00681E0F /* ColoringGameView.m in Sources */,
+				1FC0BCB519F3B99600681E0F /* UIImage+overlay.m in Sources */,
+				1FC0BC7619F2AEEF00681E0F /* UIImage-Extensions.m in Sources */,
+				1FC0BC5419F2795200681E0F /* RFduino.m in Sources */,
+				1FC0BC2119F278C000681E0F /* main.m in Sources */,
+				1FC0BC7919F2AF5300681E0F /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
+				1FC0BC8919F2C3B600681E0F /* UIImage+ColorAtPixel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1FC0BC3C19F278C000681E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FC0BC3D19F278C000681E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FC0BC3F19F278C000681E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Default-Landscape";
+				GCC_PREFIX_HEADER = RainbowPen/PrefixHeader.pch;
+				INFOPLIST_FILE = RainbowPen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FC0BC4019F278C000681E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Default-Landscape";
+				GCC_PREFIX_HEADER = RainbowPen/PrefixHeader.pch;
+				INFOPLIST_FILE = RainbowPen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FC0BC1619F278C000681E0F /* Build configuration list for PBXProject "RainbowPen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC0BC3C19F278C000681E0F /* Debug */,
+				1FC0BC3D19F278C000681E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC0BC3E19F278C000681E0F /* Build configuration list for PBXNativeTarget "RainbowPen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC0BC3F19F278C000681E0F /* Debug */,
+				1FC0BC4019F278C000681E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FC0BC1319F278C000681E0F /* Project object */;
+}

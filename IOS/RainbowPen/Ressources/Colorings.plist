@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Bart</string>
+		<key>image</key>
+		<string>000_model</string>
+		<key>colors</key>
+		<array>
+			<dict>
+				<key>object</key>
+				<string>the skin</string>
+				<key>image</key>
+				<string>000_0</string>
+				<key>color</key>
+				<string>6</string>
+			</dict>
+			<dict>
+				<key>object</key>
+				<string>the sky</string>
+				<key>image</key>
+				<string>000_1</string>
+				<key>color</key>
+				<integer>4</integer>
+			</dict>
+			<dict>
+				<key>object</key>
+				<string>pants</string>
+				<key>image</key>
+				<string>000_2</string>
+				<key>color</key>
+				<integer>8</integer>
+			</dict>
+			<dict>
+				<key>image</key>
+				<string>000_3</string>
+				<key>color</key>
+				<integer>3</integer>
+				<key>object</key>
+				<string>pull-over</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
